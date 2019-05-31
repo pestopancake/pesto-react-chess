@@ -12,7 +12,7 @@ export default class Board extends Component {
     for(var i = 0; i < 64; ++i){
       let square = {
         label: null,
-        piece: {type: 'o'},
+        piece: {type: '♙'},
       };
       this.state.squares.push(square);
     }
