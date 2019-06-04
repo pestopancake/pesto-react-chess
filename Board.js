@@ -57,6 +57,7 @@ export default class Board extends Component {
       } else if(str === 'OOO') {
         this.setState({winner: 'O'});
       }
+      break;
     }
   }
 

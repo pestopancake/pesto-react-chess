@@ -3,8 +3,8 @@ body {
 }
 
 .board{
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
 }
 
 .square{
@@ -16,6 +16,6 @@ body {
   height: 12.5%;
   overflow: hidden;
   display: inline-block;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 50px;
 }
